@@ -1,0 +1,3 @@
+# Dino game
+
+CLiCC project

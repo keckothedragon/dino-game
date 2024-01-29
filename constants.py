@@ -1,0 +1,12 @@
+# game constants
+SCREEN_WIDTH = 800
+SCREEN_HEIGHT = 600
+FPS = 60
+
+# player constants
+PLAYER_X = 375
+PLAYER_Y = 275
+PLAYER_WIDTH = 100
+PLAYER_HEIGHT = 100
+PLAYER_JUMP_HEIGHT = 20
+PLAYER_SPRITE_PATH = "assets/img/player/player.png"
