@@ -43,6 +43,11 @@ class BaseObject:
         self.y = self.start_y
         self.movement = self.start_movement
     
+    def check_collision(self, other: "BaseObject") -> bool:
+        self_rect = pygame.Rect(self.x, self.y, self.width, self.height)
+        other_rect = pygame.Rect(other.x, other.y, other.width, other.height)
+        return self_rect.colliderect(other_rect)
+    
     @classmethod
     def update_all(cls):
         for child in cls.children:
